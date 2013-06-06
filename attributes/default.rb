@@ -20,13 +20,9 @@
 default[:shutter][:version] = '0.2.0'
 default[:shutter][:iface_dmz] = []
 default[:shutter][:iface_forward] = []
-default[:shutter][:ip_allow] = [
-  '192.168.0.0/16'
-]
+default[:shutter][:ip_allow] = ['192.168.0.0/16']
 default[:shutter][:ip_deny] = []
-default[:shutter][:ports_private] = [
-  '22 tcp'
-]
+default[:shutter][:ports_private] = ['22 tcp']
 default[:shutter][:ports_public] = []
 default[:shutter][:allow_source] = "attributes"
 default[:shutter][:allow_bag] = "allow_private"
